@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--Indica la codificación de caracteres a utlizar - Universal-->  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Permiten al usuario o navegador establecer el modo vista de compatibilidad-->
+  
+  <link rel="stylesheet" href="style.css">
+  <!--Vincula la hoja de estilos a utilizar-->
+
+  <title>Formulario Registro de Paciente</title>
+</head>
+
+<body>
+	Nombre: <br>
+	<input type="text" name="nombre" size="30" maxlength="50" required><br><br>
+	Apellidos: <br>
+	<input type="text" name="apellidos" size="30" maxlength="100"><br><br>
+	Fecha de Nacimiento: <br>
+	<input type="date" name="fechadenacimiento" size="30" maxlength="50"><br><br>
+	Correo electronico: <br>
+	<input type="email" value="" name="correo" size="30" maxlength="100"><br><br>
+	Direcciòn: <br>
+	<input type="text" name="Direcciòn" size="30" maxlength="100"><br><br>
+	
+	Ciudad<br>
+	<select name="frecuencia" size="1">
+		<option value="1">Bogotà.
+		<option value="2">Cartagena.
+		<option value="3">Ibaguè.
+		<option value="4">Bucaramanga.
+		</select>
+		<br>
+		<br>	
+	
+	Celular: <br>
+	<input type="number" name="Celular" size="30" maxlength="50"><br><br>
+
+	<table width="50%" border="0" align="center" cellpadding="10" cellspacing="0">
+		<tr>
+		<td><div align="center">
+		<input type="submit" value="Enviar formulario">
+		</div></td>
+		<td><div align="center">
+		<input type="Reset" value="Borrar formulario">
+		</div></td>
+		</tr>
+	</table>
+
+</form>
+
+
+</body>
+</html>
